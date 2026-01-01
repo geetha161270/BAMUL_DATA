@@ -1,3 +1,4 @@
+#python progrom to display and store of signup,login and dashboard page in database
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_sqlalchemy import SQLAlchemy
 
