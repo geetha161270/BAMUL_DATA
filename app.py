@@ -1,5 +1,8 @@
 #python progrom to display and store of signup,login and dashboard page in database
 from flask import Flask, render_template, request, redirect, url_for, session
+# redirect:-Sends user to another page
+# url_for:-Finds route URL by function name
+#session:-Stores user login info
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
